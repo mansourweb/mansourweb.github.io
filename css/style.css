@@ -213,9 +213,7 @@ nav {
     top: 50%;
     width: 100%;
     text-align: center;
-    text-transform: uppercase;
     margin-top: -50px;
-    letter-spacing: .2em;
     font-size: 45px;
     line-height: 1.4;
     font-weight: bold
@@ -232,7 +230,6 @@ nav {
     font-size: .6em;
     color: #ffeddb;
     height: 1em;
-    letter-spacing: .2em;
     margin-bottom: 15px
 }
 
