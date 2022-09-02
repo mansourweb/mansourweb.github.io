@@ -386,10 +386,10 @@ h3 {
 
 .o {
     display: inline-block;
-    background: #1b2947;
+    background: #e96f92;
     font-size: .85em;
     padding: 10px 20px;
-    color: #ffffff;
+    color: #1b2947f0;
     font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     text-decoration: none;
     font-weight: bold;
