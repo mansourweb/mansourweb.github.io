@@ -371,7 +371,7 @@ img.avatar {
 }
 
 .h {
-    font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
+    font-family: "Krungthep",'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     color: #e96f92;
     position: absolute;
     top: 40%;
@@ -401,7 +401,7 @@ text-shadow: 0 0 0 #6ff67a,0 0 0 #6ff67a,0 0 0 #6ff67a,0 0 1px #6ff67a,0 0 1px #
 
 .f {
     display: block;
-    font-size: .6em;
+    font-size: .5em;
     color: #ffeddb;
     height: 1em;
     margin-bottom: 15px;
