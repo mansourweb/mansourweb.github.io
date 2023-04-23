@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="star-grid" aria-hidden="true">
+    <!-- <div class="star-grid" aria-hidden="true">
         <div id="star-1" class="star star-1"></div>
         <div id="star-2" class="star star-2"></div>
         <div id="star-3" class="star star-3"></div>
@@ -28,32 +28,34 @@
         <div id="star-12" class="star star-4"></div>
         <div id="star-13" class="star star-1"></div>
         <div id="star-14" class="star star-2"></div>
-      </div>
+      </div> -->
     <div class="ScrollWrapper">
         <header class="Header js-HasVH" data-vh="0.75">
             <nav><a class="x" href="#about"><span>About</span></a><a class="x" href="#work"> <span>Work</span></a><a
                     class="x" href="#contact"> <span>Contact</span></a></nav>
             <div class="Scene">
-                <div class="v" role="presentation"></div><canvas class="Scene-stars"
+                <div class="v" role="presentation"></div><canvas class="Scene-stars" role="presentation"></canvas><canvas class="sScene-mountains" data-stop-on-scroll="true"
                     role="presentation"></canvas>
             </div>
             <h1 class="h"><span class="e d" alt="Ahmed Mansour"> <a href="https://hellomansour.github.io/"><span class="c" aria-hidden="true">Ahmed
-                    </span><span class="b" aria-hidden="true">Mansour</span></a></span><span class="f"
-                    alt="Devops Engineer"><span aria-hidden="true">Devops Engineer</span></span>
-                    <section>
-                        <img class="avatar" src="/img/ahmed-mansour.png" alt="Ahmed Mansour">
-                    </section>
-                    <!-- <div class="a js-Lazyload" role="presentation" data-image="img/separator-green.svg"></div> -->
-                </h1>
+            </span><span class="b" aria-hidden="true">Mansour</span></a></span><span class="f"
+            alt="Devops Engineer"><span aria-hidden="true">Devops Engineer</span></span>
+    
+            <div class="a js-Lazyload" role="presentation" data-image="img/separator-green.svg"></div>
+        </h1>
+
+    </h1>
 
         </header>
         <main>
             <div class="p">
                 <section>
                     <h2 id="about">About</h2>
+                    <img class="avatar" src="/img/ahmed-mansour.png" alt="Ahmed Mansour">
                     <p class="q">Aspiring DevOps Engineer with a focus in cloud computing, systems administration, and software development.  Utilizing automation to streamline operations.</p>
                     <p>Working @ <a href='#'>Lorem Ipsum</a>. Based in New Cairo, Egypt.</p>
                 </section>
+
                 <section>
                     <h2 id="work">Work</h2>
                     <div class="Works">
@@ -146,7 +148,7 @@
                 </footer>
             </div>
         </main>
-        <div class="s"></div>
+        <div class="s"><canvas class="Scene-mountains t"></canvas></div>
     </div>
     <script id="vs"
         type="x-shader/vertex">attribute vec3 position;void main(){gl_Position=vec4(position,1.0);} </script>
