@@ -2,6 +2,8 @@
 
 body {
     background: fixed linear-gradient(#1a1a4d,#543bc4 80%);
+    /* 040d30 */
+    /* 1a1a4d */
     margin: 0;
     padding: 0;
     color: #fafafa;
@@ -25,7 +27,7 @@ a {
 }
 
 p.q {
-    font-size: 1.2em
+    font-size:1em
 }
 
 p {
@@ -158,6 +160,8 @@ nav {
     height: 75vh;
     margin-bottom: 90px
 }
+
+
 
 img.avatar {
     --s: 200px;
@@ -293,7 +297,7 @@ section {
     position: relative;
 }
 
-section::after, header::after {
+section::after {
     content: '';
     display: block;
     width: 300px;
@@ -498,6 +502,27 @@ h3 {
     transition: background-position 80ms ease-out, color 80ms
 }
 
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    z-index: -1;
+  }
+
+@keyframes glow {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 @media (max-width:950px) and (min-width:769px) {
     .Work:nth-child(n) .i {
         width: 300px;
@@ -643,6 +668,12 @@ h3 {
 
 
 }
+
+
+
+
+
+
 
 
 
