@@ -193,6 +193,9 @@ img {
     --f: 1.4; /* hover scale */
   }
 
+p.q {
+    padding-top: 1em;
+}
 .Scene {
     position: absolute;
     top: 0;
