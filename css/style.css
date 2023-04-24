@@ -1,7 +1,7 @@
 @font-face {font-family: "Antro Vectra"; src: url("../fonts/Antro_Vectra_Bolder.otf");}
 
 body {
-    background: fixed linear-gradient(#1a1a4d,#543bc4 80%);
+    background: fixed linear-gradient(#040d30,#543bc4 80%);
     /* 040d30 */
     /* 1a1a4d */
     margin: 0;
@@ -502,8 +502,12 @@ h3 {
     transition: background-position 80ms ease-out, color 80ms
 }
 
+.s {
+    background: linear-gradient(#d5ceb32b  40%,hsla(0,0%,100%,0));
+}
+
 .star {
-    position: absolute;
+    position: fixed;
     width: 1px;
     height: 1px;
     border-radius: 50%;
@@ -542,7 +546,9 @@ h3 {
         background-color: #ffeddb;
     }
 
-
+    img.avatar {
+        --s: 180px;
+    }
     .x {
         font-size: 16px;
         margin: 0;
