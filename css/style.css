@@ -171,7 +171,7 @@ img.avatar {
     --f: 1;
     width: var(--s);
     aspect-ratio: 1;
-    padding-top: calc(var(--s)/5);
+    padding-top: calc(var(--s)/10);
     cursor: pointer;
     border-radius: 0 0 999px 999px;
     --_g: 50%/calc(100%/var(--f)) 100% no-repeat content-box;
@@ -240,7 +240,7 @@ img {
     font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
     color: #e96f92;
     position: absolute;
-    top: 40%;
+    top: 60%;
     width: 100%;
     text-align: center;
     margin-top: -50px;
@@ -507,7 +507,7 @@ h3 {
 }
 
 .star {
-    position: fixed;
+    position: absolute;
     width: 1px;
     height: 1px;
     border-radius: 50%;
