@@ -337,12 +337,12 @@ h2 {
     font-size: 40px;
     margin: 0;
     padding-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h2::after {
     content: '';
-    background: url("../img/separator.svg") no-repeat;
+    background: url("../img/separator-green.svg") no-repeat;
     display: block;
     width: 67px;
     height: 17px;
@@ -527,7 +527,7 @@ h3 {
 }
 
 .star {
-    position: absolute;
+    position: fixed;
     width: 1px;
     height: 1px;
     border-radius: 50%;
@@ -589,7 +589,7 @@ h3 {
     }
 
     .p {
-        width: 90%;
+        width: 100%;
         padding-left: 20px;
         padding-right: 20px;
         box-sizing: border-box
@@ -597,7 +597,7 @@ h3 {
 
     .h {
         font-size: 40px;
-        top: 10%;
+        top: 20%;
         font-size: 45px;
     }
 
