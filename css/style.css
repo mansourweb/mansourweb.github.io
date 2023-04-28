@@ -58,9 +58,11 @@ nav {
     flex-basis: 0;
     flex-grow: 999;
     font-size: clamp(1rem,calc(0.95rem + 0.24vw),1.13rem);
-    border-radius: 0;
+    border-radius: 3px;
     box-shadow: 10px 10px 0 3px rgba(0,0,0,.2);
     padding: clamp(1rem,5%,2rem);
+    border: 2px solid #e9ecef;
+
 }
 
 
