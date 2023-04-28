@@ -261,7 +261,7 @@ p.q {
 }
 
 .h {
-    font-family: "Krungthep","Figtree",sans-serif;
+    font-family: "Krungthep",'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     color: #54fad4;
     position: absolute;
     text-align: center;
@@ -331,7 +331,7 @@ section {
 h2 {
     text-align: center;
     color:#856eed;
-    font-family:"Krungthep","Figtree",sans-serif;
+    font-family:"Krungthep",'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     font-size: 35px;
     margin: 0;
     padding-top: 10px;
