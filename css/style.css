@@ -181,12 +181,11 @@ nav {
 
 img.avatar {
     --s: 200px;
-    --b: 6px;
+    --b: 3px;
     --c: #ae3ec9;
     --cb: #e9ecef;
     --f: 1;
     width: var(--s);
-    aspect-ratio: 1;
     padding-top: calc(var(--s)/10);
     cursor: pointer;
     border-radius: 0 0 999px 999px;
@@ -196,17 +195,21 @@ img.avatar {
     outline-offset: var(--_o);
     background: radial-gradient( circle closest-side, var(--cb) calc(99% - var(--b)),var(--c) calc(100% - var(--b)) 99%,#0000 ) var(--_g);
     -webkit-mask: linear-gradient(#000 0 0) no-repeat 50% calc(1px - var(--_o)) / calc(100%/var(--f) - 2*var(--b) - 2px) 50%, radial-gradient(circle closest-side,#000 99%,#0000) var(--_g);
+    mask: linear-gradient(#000 0 0) no-repeat 50% calc(1px - var(--_o)) / calc(100%/var(--f) - 2*var(--b) - 2px) 50%, radial-gradient(circle closest-side,#000 99%,#0000) var(--_g);
+
     transform: scale(var(--f));
     transition: .5s;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
+
 }
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
   img:hover {
-    --f: 1.4; /* hover scale */
+    --f: 1.35;
   }
 
 p.q {
@@ -317,8 +320,8 @@ section {
     position: relative;
 }
 
-section::after {
-    /* content: '';
+/* section::after {
+    content: '';
     display: block;
     width: 300px;
     height: 1px;
@@ -326,8 +329,8 @@ section::after {
     left: 50%;
     bottom: 0;
     margin-left: -150px;
-    background: rgb(255 255 255 / 0.15); */
-}
+    background: rgb(255 255 255 / 0.15);
+} */
 
 
 h2 {
@@ -336,7 +339,7 @@ h2 {
     font-family:'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     font-size: 30px;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -353,7 +356,7 @@ h3 {
     margin: 0;
     font-family: 'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1;
 }
 
@@ -400,7 +403,7 @@ h3 {
     vertical-align: middle;
     box-sizing: border-box;
     padding-right: 25px;
-    font-size: 20px
+    font-size: 15px
 }
 
 .k {
