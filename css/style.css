@@ -1,7 +1,7 @@
 @font-face {font-family: "Antro Vectra"; src: url("../fonts/Antro_Vectra_Bolder.otf");}
 
 body {
-    background: fixed linear-gradient(#040d30,#543bc4 80%);
+    background: fixed linear-gradient(#1a1a4d,#543bc4 80%);
     /* 040d30 */
     /* 1a1a4d */
     margin: 0;
