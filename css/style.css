@@ -61,11 +61,10 @@ nav {
     border-radius: 3px;
     box-shadow: 10px 10px 0 3px rgba(0,0,0,.2);
     padding: clamp(1rem,5%,2rem);
-    border: 5px ridge rgba(211, 220, 50, .6);
-    border: 1px solid transparent;
-
-    border-image: linear-gradient(to left, #54fad4, #fff1eb) 1;
+    /* border: 1px solid transparent; */
+    /* border-image: linear-gradient(to left, #54fad4, #fff1eb) 1; */
 }
+
 
 
 
@@ -182,6 +181,7 @@ nav {
 
 
 img.avatar {
+    aspect-ratio: 1;
     --s: 200px;
     --b: 3px;
     --c: #ae3ec9;
@@ -261,7 +261,7 @@ p.q {
 }
 
 .h {
-    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+    font-family: "Krungthep","Figtree",sans-serif;
     color: #54fad4;
     position: absolute;
     text-align: center;
@@ -330,22 +330,22 @@ section {
 
 h2 {
     text-align: center;
-    color:#ffeddb;
-    font-family:'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
-    font-size: 30px;
+    color:#856eed;
+    font-family:"Krungthep","Figtree",sans-serif;
+    font-size: 35px;
     margin: 0;
     padding-top: 10px;
-    margin-bottom: 20px;
+    text-align: center;
 }
 
-h2::after {
+/* h2::after {
     content: '';
     background: url("../img/separator-green.svg") no-repeat;
     display: block;
     width: 67px;
     height: 17px;
     margin: 18px auto 0 auto;
-}
+} */
 
 h3 {
     margin: 0;
