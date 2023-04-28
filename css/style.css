@@ -1,5 +1,3 @@
-@font-face {font-family: "Antro Vectra"; src: url("../fonts/Antro_Vectra_Bolder.otf");}
-
 body {
     background: fixed linear-gradient(#1a1a4d,#543bc4 80%);
     /* 040d30 */
@@ -260,14 +258,14 @@ p.q {
 
 .h {
     font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
-    color: #e96f92;
+    color: #54fad4;
     position: absolute;
     text-align: center;
-    top: 10%;
+    top: 15%;
     /* width: 100%; */
     /* margin-top: -50px; */
     /* font-weight: bold; */
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.4;
     width: 100%;
 }
@@ -276,17 +274,10 @@ p.q {
     display: block;
     height: 1em;
     margin-bottom: .2em;
-    font-family: "Antro Vectra",sans-serif;
-    transform: rotate(-5deg);
-    text-shadow: 0 0 0 #f66fef, 0 0 0 #f66fef, 0 0 0 #f66fef, 0 0 1px #f66fef, 0 0 1px #f66fef, 0 0 1px #f66fef, 1px 0 10px #f66fef, 1px 0 10px #f66fef, 1px 0 10px #f66fef, 1px 0 10px #f00fe4, 1px 0 10px #f00fe4, 1px 0 25px #f00fe4, 1px 0 25px #f00fe4;
   }
   
 
-.e:hover,
-.e:focus {
-text-shadow: 0 0 0 #6ff67a,0 0 0 #6ff67a,0 0 0 #6ff67a,0 0 1px #6ff67a,0 0 1px #6ff67a,0 0 1px #6ff67a,1px 0 20px #6ff67a,1px 0 20px #6ff67a,1px 0 20px #6ff67a,1px 0 10px #0ff022,1px 0 10px #0ff022,1px 0 50px #0ff022,1px 0 50px #0ff022;
-}
-  
+
 
 .f {
     display: block;
@@ -361,7 +352,7 @@ h3 {
 }
 
 .p {
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
   }
   
@@ -600,8 +591,8 @@ h3 {
 
     .h {
         font-size: 40px;
-        top: 20%;
-        font-size: 45px;
+        top: 25%;
+        font-size: 40px;
     }
 
     h2 {
