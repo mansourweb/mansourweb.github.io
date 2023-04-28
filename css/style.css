@@ -318,7 +318,7 @@ section {
 }
 
 section::after {
-    content: '';
+    /* content: '';
     display: block;
     width: 300px;
     height: 1px;
@@ -326,7 +326,7 @@ section::after {
     left: 50%;
     bottom: 0;
     margin-left: -150px;
-    background: rgb(255 255 255 / 0.15);
+    background: rgb(255 255 255 / 0.15); */
 }
 
 
@@ -334,7 +334,7 @@ h2 {
     text-align: center;
     color:#ffeddb;
     font-family:'Avenir Next', 'Segoe ui', Ubuntu, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     padding-top: 30px;
     margin-bottom: 20px;
@@ -576,7 +576,7 @@ h3 {
     }
 
     body {
-        font-size: 16px
+        font-size: 16px;
     }
 
     section {
