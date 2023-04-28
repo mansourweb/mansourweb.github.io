@@ -61,8 +61,10 @@ nav {
     border-radius: 3px;
     box-shadow: 10px 10px 0 3px rgba(0,0,0,.2);
     padding: clamp(1rem,5%,2rem);
-    border: 2px solid #e9ecef;
+    border: 5px ridge rgba(211, 220, 50, .6);
+    border: 1px solid transparent;
 
+    border-image: linear-gradient(to left, #54fad4, #fff1eb) 1;
 }
 
 
