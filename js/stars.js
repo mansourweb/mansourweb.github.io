@@ -5,7 +5,7 @@
   
   for (let i = 0; i < max_stars; i++) {
     const star = document.createElement('span');
-    const size = (Math.floor(Math.random() *4) + 1);
+    const size = (Math.floor(Math.random() *5) + 1);
     star.className = 'star';
     star.style.width = size +'px';
     star.style.height = size + 'px';
