@@ -224,6 +224,15 @@ html{
     -moz-osx-font-smoothing:grayscale;
     scroll-behavior: smooth;
 }
+
+#projects {
+    scroll-margin-top:8rem;
+}
+#about,
+#contact {
+  scroll-margin-top: 5rem;
+}
+
 *,*:before,*:after{
     box-sizing:inherit
 }
