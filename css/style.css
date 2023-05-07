@@ -291,7 +291,8 @@ h2{
     }
 }
 h3{
-    font-size:1.44em
+    font-size:1.44em;
+    text-align: center;
 }
 @media screen and (min-width:50em){
     h3{
@@ -402,7 +403,8 @@ img{
     height:auto;
     max-width:100%;
     pointer-events:none;
-    border-style:none
+    border-style:none;
+    border-radius: 10px;
 }
 figure,iframe,video{
     margin:3em 0
@@ -527,7 +529,7 @@ template{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 3em;
+    margin-top: 2em;
   }
 
 .btn{
@@ -628,7 +630,7 @@ template{
 }
 .card::before{
     content:"";
-    height:10px;
+    height:5px;
     width:100%
 }
 .card:hover{
@@ -675,9 +677,7 @@ template{
 .card__link{
     display:block;
     height:100%;
-    padding:0 1.5em;
-    cursor: default;
-    user-select: none;
+    padding:0 1em;
 }
 
   
@@ -703,9 +703,16 @@ template{
     }
 }
 .card__media{
-    padding: 2em;
-    padding-top: 3em
+    padding:0 2em;
+
 }
+
+.card__media img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
 .card__media svg path{
     transition:all .3s cubic-bezier(.645,.045,.355,1);
     transform-origin:center center
@@ -766,6 +773,14 @@ template{
     position:relative;
     margin-bottom: 1em
 }
+.card__header span {
+    text-align: center;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+
 .card__title,.card__meta{
     font-weight:400;
     line-height:1.2
@@ -923,7 +938,7 @@ template{
     }
 }
 .media__body{
-    flex-basis:40%;
+    flex-basis:60%;
     align-self:center
 }
 @media(min-width:64em){
@@ -932,7 +947,8 @@ template{
     }
 }
 .media__title{
-    margin:0 0 .75em
+    margin:0 0 .75em;
+    text-align: left;
 }
 .media__title{
     font-size:1.44em
@@ -982,7 +998,7 @@ template{
     left:0;
     width:100%;
     height:100%;
-    background:linear-gradient(to left,#101117,transparent)
+    /* background:linear-gradient(to left,#101117,transparent) */
 }
 .media__btn{
     margin-top:1.5em
@@ -1645,6 +1661,7 @@ template{
     flex-wrap: wrap;
     list-style-type: none;
     margin-bottom: 12px;
+    justify-content: center;
 }
 
 .projects-tech-list-item {
@@ -1727,3 +1744,46 @@ template{
     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     grid-column-gap: var(--base-spacing)
 }
+
+.cards-container {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin-right: 18px;
+    width: 370px;
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .card {
+      width: 100%;
+      margin: 1rem 0;
+    }
+    
+    .card__media img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .card__header {
+      padding: 1rem;
+    }
+    
+    .card__title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .projects-tech-list {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+  }
+  

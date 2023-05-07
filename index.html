@@ -133,21 +133,21 @@
                 </div>
 
                <div class=banner__body>
-                  <p class=banner__desc>Aspiring DevOps Engineer with a focus in cloud computing, systems administration, and software development. Utilizing automation to streamline operations.
+                  <p class=banner__desc>Aspiring DevOps Engineer with a focus in cloud computing, systems administration, and software development.
                   </p>
                </div>
             </section>
             <section>
                <h2>Projects</h2>
-               <div class=grid>
+               <div class="cards-container">
 
                   <article class="card card--purple" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/learning-log.jpg" alt="Learning Log">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Learning Log</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/learning-log.jpg" alt="Learning Log">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">Python</li>
                               <li class="projects-tech-list-item">Django</li>
@@ -168,12 +168,12 @@
 
 
                   <article class="card card--blue" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/top-repos.png" alt="Top Repositories">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Top Repositories</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/top-repos.png" alt="Top Repositories">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">GitHub API</li>
                               <li class="projects-tech-list-item">Requests</li>
@@ -189,12 +189,12 @@
                   </article>
 
                   <article class="card card--turquoise" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/discord-lite.jpg" alt="Live Chatroom">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Live Chatroom</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/discord-lite.jpg" alt="Live Chatroom">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">Async JS</li>
                               <li class="projects-tech-list-item">Firebase</li>
@@ -214,12 +214,12 @@
          
 
                   <article class="card card--green" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/tourism-site.png" alt="Tourism Site">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Tourism Site</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/tourism-site.png" alt="Tourism Site">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">HTML</li>
                               <li class="projects-tech-list-item">CSS animations</li>
@@ -239,12 +239,12 @@
                   
 
                   <article class="card card--pink" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/ui-library.png" alt="UI Library">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>UI Library</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/ui-library.png" alt="UI Library">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">Bootstrap</li>
                               <li class="projects-tech-list-item">JavaScript</li>
@@ -262,12 +262,12 @@
 
                  
                   <article class="card card--yellow" role=article data-reveal>
-                     <div class=card__link data-page-link>
-                        <div class=card__media aria-hidden=true>
-                           <img src="/img/weather.png" alt="Weather Checker">
-                        </div>
+                     <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Weather Checker</h3>
+                           <div class=card__media aria-hidden=true>
+                              <img src="/img/weather.png" alt="Weather Checker">
+                           </div>
                            <ul class="projects-tech-list">
                               <li class="projects-tech-list-item">JavaScript</li>
                               <li class="projects-tech-list-item">Bootstrap</li>
@@ -295,15 +295,26 @@
             
             <section>
                <h2 id=about class=border-top>About</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quod!</p>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse ducimus maxime reprehenderit sit magnam corporis doloremque quod quam consequatur facere excepturi cumque, aperiam, quaerat enim doloribus ad quas porro, laboriosam labore ipsa consectetur consequuntur? Odit, in? Fugiat excepturi necessitatibus culpa hic magni consequatur suscipit incidunt modi explicabo distinctio. Saepe quia maiores, et iusto reiciendis ducimus quae veniam ea fugit fuga odio hti!</p>
-  
+               <article class="media media--featured" role=article data-reveal>
+                  <div class=media__item>
+                     <img width=1920 height=1080 class="lazyload img-border-radius" sizes=auto src="/img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.jpg" alt="Good Design is Intentional">
+                  </div>
+                  <header class=media__body>
+                     <div>
+                        <!-- <h3 class=media__title>DevOps Engineer</h3> -->
+                        <div class=media__meta>
+                           <span>Cairo, Egypt</span>
+                        </div>
+                        <p class=media__desc>It’s time we expand what it means to create more meaningful relationships between people and technology by considering the intentionality of the products we build. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quo repudiandae voluptatem autem, exercitationem animi adipisci sit pariatur nihil ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatibus et quia sit deleniti molestiae perspiciatis laborum praesentium adipisci eum laudantium reiciendis, ab rerum beatae molestias corporis ipsum necessitatibus unde iste temporibus? Nesciunt, nobis ea vero quisquam culpa dolores ullam eius, obcaecati cum harum quod reprehenderit? Dignissimos, voluptatibus ad? Minus.</p>
+                     </div>
+                  </header>
+               </article>
             </section>
                   
 
             <section>
                <h2 class="border-top" id=websites>Contact</h2>
-               <p>
+
                <article class=slat role=article data-reveal>
                   <a class=slat__content target=blank rel=noopener href="https://hellomansour.github.io/resume/Ahmed_Mansour_Resume.pdf"/>
                      <p class=slat__subtitle style=color:#764adb>View my resume</p>
@@ -328,7 +339,7 @@
                </article>
              
                <article class=slat role=article data-reveal>
-                  <a class=slat__content target=blank rel=noopener href=http://humanetech.com/>
+                  <a class=slat__content target=blank rel=noopener href=https://github.com/hellomansour>
                      <p class=slat__subtitle style=color:#764adb>GitHub account</p>
                      <div class=slat__meta>
                         github.com/hellomansour
@@ -339,7 +350,7 @@
                   </a>
                </article>
                <article class=slat role=article data-reveal>
-                  <a class=slat__content target=blank rel=noopener href=http://humanetech.com/>
+                  <a class=slat__content target=blank rel=noopener href=https://www.linkedin.com/in/ahmed-saber-mansour/>
                      <p class=slat__subtitle style=color:#764adb>LinkedIn profile</p>
                      <div class=slat__meta>
                         linkedin.com/ahmed-saber-mansour
@@ -349,6 +360,7 @@
                      </div>
                   </a>
                </article>
+            </section>
          </div>
 
       </main>
@@ -356,16 +368,24 @@
          <div class=footer__social>
             <ul class=social>
                <li class=social__item>
+                  <a href="https://hellomansour.github.io/resume/Ahmed_Mansour_Resume.pdf" target=blank rel=noopener>
+                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="resume pdf">
+                        <title id="pdf">Resume</title>
+                        <use xlink:href="#pdf"/>
+                     </svg>
+                  </a>
+               </li>
+               <li class=social__item>
                   <a href="mailto: mr.a.mansour@gmail.com" target=blank rel=noopener>
-                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="linkedInShare">
+                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="email address">
                         <title id="email">Github account</title>
                         <use xlink:href="#email"/>
                      </svg>
                   </a>
                </li>
                <li class=social__item>
-                  <a href="https://www.linkedin.com/in/ahmed-saber-mansour" target=blank rel=noopener>
-                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="linkedInShare">
+                  <a href="https://github.com/hellomansour" target=blank rel=noopener>
+                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="github">
                         <title id="github">Github account</title>
                         <use xlink:href="#github"/>
                      </svg>
@@ -373,20 +393,13 @@
                </li>
                <li class=social__item>
                   <a href="https://www.linkedin.com/in/ahmed-saber-mansour" target=blank rel=noopener>
-                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="linkedInShare">
-                        <title id="linkedInShare">LinkedIn profile</title>
+                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="linkedin">
+                        <title id="linkedin">LinkedIn profile</title>
                         <use xlink:href="#linkedin"/>
                      </svg>
                   </a>
                </li>
-               <li class=social__item>
-                  <a href="https://www.linkedin.com/in/ahmed-saber-mansour" target=blank rel=noopener>
-                     <svg class="icon" width="20" height="20" role="img" aria-labelledby="linkedInShare">
-                        <title id="pdf">Github account</title>
-                        <use xlink:href="#pdf"/>
-                     </svg>
-                  </a>
-               </li>
+               
             </ul>
          </div>
          <a href=#top class=footer__top>
