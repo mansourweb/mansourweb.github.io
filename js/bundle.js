@@ -29,7 +29,7 @@
   };
 
   const parallaxConfig = {
-    speed: 0.3
+    speed: 0.5
   }
 
   // Request Animation Frame
