@@ -1073,6 +1073,11 @@ template{
     padding:1.5em;
     text-decoration:none
 }
+
+.slat__subtitle {
+    color: #764adb;
+}
+
 .slat__title,.slat__subtitle,.slat__meta{
     flex-basis:100%;
     font-weight:400;
