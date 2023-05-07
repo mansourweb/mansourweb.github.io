@@ -1218,7 +1218,8 @@ template{
 }
 .banner__header{
     grid-column:1/-1;
-    grid-row:1
+    grid-row:1;
+    padding-top: 2em;
 }
 @media(min-width:50em){
     .banner__header{
@@ -1257,10 +1258,9 @@ template{
 .banner__media img{
     -o-object-fit:cover;
     object-fit:cover;
-    position:absolute;
     top:-25%;
     width:150%;
-    height:150%
+    height: 100%;
 }
 .banner__icon svg{
     width:100%;
@@ -1752,6 +1752,25 @@ template{
       flex-direction: column;
       align-items: center;
     }
+    
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .banner__media {
+        display: flex;
+        justify-content: center;
+      }
+      .banner__media img {
+        height: auto;
+      }
+      
+      .banner__desc {
+        text-align: center;
+      }
+      
   
     .card__button {
       margin: 0.5em 0;
@@ -1780,10 +1799,14 @@ template{
     .grid {
       grid-template-columns: repeat(1, 1fr);
     }
+    .banner {
+        text-align: center;
+    }
     
     .card {
       width: 90%;
       margin: 1rem 0;
+      margin-right: 15px;
     }
     
     .card__media img {
