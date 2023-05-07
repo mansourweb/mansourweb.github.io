@@ -76,7 +76,7 @@
       <a class="visuallyhidden focusable" href=#main>Skip to main content</a>
 
       
-      <header class=header role=banner data-scroll-header>
+      <header class=header role=banner>
          <div class=header__content>
             <div class=header__title>
                <a href="/" title=Home>
@@ -91,43 +91,25 @@
                      <path d="M432.001 639H528v630.313a634.962 634.962.0 01-96-24.729V639c.27-114.37 93.068-207 207.5-207S846.73 524.63 847 639v605.584a634.964 634.964.0 01-96 24.73V639h-.001c-.27-61.35-50.086-111-111.499-111s-111.23 49.65-111.499 111h-96z"/>
                      <path d="M703 1275.887A647.17 647.17.0 01639.5 1279a647.17 647.17.0 01-63.5-3.113V639h.002c.269-34.84 28.595-63 63.498-63s63.23 28.16 63.498 63l.002 636.887z"/>
                   </svg>
-
-
-                  
                </a>
             </div>
-
-            <div class=header__nav-toggle>
-               <button id=nav-toggle data-nav-toggle aria-controls=navigation>
-                  <span class=header__nav-toggle-label>Menu</span>
-                  <svg class="icon header__nav-toggle--open" width="24" height="24" >
-                     <use xlink:href="#menu"/>
-                  </svg>
-                  <svg class="icon header__nav-toggle--close" width="24" height="24" >
-                     <use xlink:href="#close"/>
-                  </svg>
-               </button>
-            </div>
-            <nav id=navigation class=header__nav role=navigation aria-labelledby=nav-toggle data-nav>
-               <a class=header__link href="#projects" title=Projects >Projects</a>
-               <a class=header__link href="#about" title=Info >About</a>
-               <a class=header__link href="#contact" title=Resources >Contact</a>
-            </nav>
+            <nav id="navigation" class="header__nav" role="navigation" aria-labelledby="nav">
+               <a class="header__link" href="#projects" title="Projects">Projects</a>
+               <a class="header__link" href="#about" title="Info">About</a>
+               <a class="header__link" href="#contact" title="Resources">Contact</a>
+           </nav>
+           
          </div>
       </header>
       
-      <main id=main class=main role=main data-main-wrapper>
+      <main id=main class=main role=main>
          <div data-main-content>
             <section class=banner>
                <div class=banner__header>
                   <h1 class=banner__title>Ahmed Mansour</h1>
                </div>
                <div class=banner__media>
-                  <img width=1920 height=1080 class=lazyload sizes=auto data-parallax srcset="/img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp 400w,
-                  /img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp 800w,
-                  /img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp 1200w,
-                  /img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp 1600w,
-                  /img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp 1920w" src="/img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp" alt="Good Design is Intentional">
+                  <img src="/img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp" alt="My avatr">
                </div>
 
                <div class=banner__body>
@@ -139,7 +121,7 @@
                <h2>Projects</h2>
                <div class="cards-container">
 
-                  <article class="card card--purple" role=article data-reveal>
+                  <article class="card card--purple" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Learning Log</h3>
@@ -165,7 +147,7 @@
 
 
 
-                  <article class="card card--blue" role=article data-reveal>
+                  <article class="card card--blue" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Top Repositories</h3>
@@ -186,7 +168,7 @@
                      </div>
                   </article>
 
-                  <article class="card card--turquoise" role=article data-reveal>
+                  <article class="card card--turquoise" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Live Chatroom</h3>
@@ -211,7 +193,7 @@
 
          
 
-                  <article class="card card--green" role=article data-reveal>
+                  <article class="card card--green" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Tourism Site</h3>
@@ -233,7 +215,7 @@
                   </article>
 
 
-                  <article class="card card--yellow" role=article data-reveal>
+                  <article class="card card--yellow" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>Weather Checker</h3>
@@ -256,7 +238,7 @@
                   </article>
                   
 
-                  <article class="card card--pink" role=article data-reveal>
+                  <article class="card card--pink" role=article >
                      <div class=card__link>
                         <header class=card__header>
                            <h3 class=card__title>UI Library</h3>
@@ -293,7 +275,7 @@
             
             <section id="about">
                <h2 class=border-top>About</h2>
-               <article class="media media--featured" role=article data-reveal>
+               <article class="media media--featured" role=article >
                   <div class=media__item>
                      <img width=1920 height=1080 class="lazyload img-border-radius" sizes=auto src="/img/cover_hu3422fc87cc9e19e4c8f2da63079ee385_2244654_1200x0_resize_q75_box.webp" alt="Good Design is Intentional">
                   </div>
@@ -313,7 +295,7 @@
             <section id="contact">
                <h2 class="border-top" id=websites>Contact</h2>
 
-               <article class=slat role=article data-reveal>
+               <article class=slat role=article >
                   <a class=slat__content target=blank rel=noopener href="https://hellomansour.github.io/resume/Ahmed_Mansour_Resume.pdf"/>
                      <p class=slat__subtitle>View my resume</p>
                      <div class=slat__meta>
@@ -324,7 +306,7 @@
                      </div>
                   </a>
                </article>
-               <article class=slat role=article data-reveal>
+               <article class=slat role=article >
                   <a class=slat__content target=blank rel=noopener href="mailto: mr.a.mansour@gmail.com"/>
                      <p class=slat__subtitle>Send an email</p>
                      <div class=slat__meta>
@@ -336,7 +318,7 @@
                   </a>
                </article>
              
-               <article class=slat role=article data-reveal>
+               <article class=slat role=article >
                   <a class=slat__content target=blank rel=noopener href=https://github.com/hellomansour>
                      <p class=slat__subtitle>GitHub account</p>
                      <div class=slat__meta>
@@ -347,7 +329,7 @@
                      </div>
                   </a>
                </article>
-               <article class=slat role=article data-reveal>
+               <article class=slat role=article >
                   <a class=slat__content target=blank rel=noopener href=https://www.linkedin.com/in/ahmed-saber-mansour/>
                      <p class=slat__subtitle>LinkedIn profile</p>
                      <div class=slat__meta>
@@ -407,6 +389,5 @@
             </svg>
          </a>
       </footer>
-      <script src=js/bundle.js integrity media=screen></script>
    </body>
 </html>
