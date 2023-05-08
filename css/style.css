@@ -979,7 +979,7 @@ template{
 }
 .media__meta{
     margin:-.75em 0 .75em;
-    color:#41424c
+    color:#9e9e9e
 }
 @media(min-width:64em){
     .media__meta{
@@ -1006,7 +1006,6 @@ template{
     position:relative
 }
 .media--featured .media__desc:before{
-    content:"";
     position:absolute;
     top:0;
     left:0;
@@ -1079,7 +1078,7 @@ template{
 }
 
 .slat__subtitle {
-    color: #764adb;
+    color: #b08dff;
 }
 
 .slat__title,.slat__subtitle,.slat__meta{
