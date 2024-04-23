@@ -1912,6 +1912,7 @@ justify-content: center;}
 .cards-container {
     display: flex;
     overflow-x: scroll;
+    padding-left: 1em;
   }
   
   .card {
