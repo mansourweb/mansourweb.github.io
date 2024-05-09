@@ -1514,12 +1514,13 @@ text-decoration: none;
   
   .footer-content span {
     position: absolute;
-    bottom: 0; /* Position the span at the top */
-    left: 0;
-    color: #fff;
-    font-size: 1em;
-    padding: 0.8em; /* Add padding around the text */
-    font-weight: 500;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  width: max-content;
   }
 @media not screen and (prefers-reduced-motion:reduce){
     .footer__top:hover svg{
