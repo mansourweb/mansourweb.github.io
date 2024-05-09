@@ -592,7 +592,7 @@ template{
 .btn{
     position:relative;
     display:inline-block;
-    width:100%;
+    width:auto;
     padding:0.5em 0.5em;
     vertical-align:middle;
     border-radius:0.6rem;
