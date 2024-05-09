@@ -1521,6 +1521,7 @@ text-decoration: none;
   font-size: 1em;
   font-weight: 500;
   width: max-content;
+  padding-bottom: .5em;
   }
 @media not screen and (prefers-reduced-motion:reduce){
     .footer__top:hover svg{
