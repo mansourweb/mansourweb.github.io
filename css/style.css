@@ -1557,19 +1557,11 @@ text-decoration: none;
     }
 }
 .header{
-    /* position:fixed; */
-    /* top:0; */
-    /* left:0; */
-    /* padding:1.5em; */
-    /* z-index:3; */
-    /* width:100%; */
-    /* max-width:80em; */
-    /* line-height:5.4em; */
+
     background:linear-gradient(to bottom,#fff,transparent);
-    border-top: solid 0.25em #b15290;
+    border-top: solid 0.20em #b15290;
     background:linear-gradient(to bottom, #6b144a, #8C2263);
 
-    /* border-bottom: solid 0.25em #b15290; */
 
     left: 0;
   margin: 0;
