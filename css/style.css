@@ -1469,8 +1469,8 @@ text-decoration: none;
   background-color: #fff;
   border-color: transparent;
   filter: blur(.5em);
-  height: 2em;
-  margin-bottom: -1em;
+  height: 5em;
+  margin-bottom: -.8em;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -1515,17 +1515,16 @@ text-decoration: none;
   .footer-content span {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    /* transform: translateX(-50%); */
     color: #fff;
     font-size: 1em;
-    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.4);
+
+
     width: max-content;
     padding: .3em;
-    background-color: rgba(0, 0, 0, 0.3);
-
-    border-top-left-radius:.5em ;
-    border-top-right-radius:.5em ;
+    border-top-right-radius: .2em;
   }
 
   
