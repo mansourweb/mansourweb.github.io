@@ -1514,15 +1514,21 @@ text-decoration: none;
   
   .footer-content span {
     position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  width: max-content;
-  padding-bottom: .5em;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    width: max-content;
+    padding: .3em;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    border-top-left-radius:.5em ;
+    border-top-right-radius:.5em ;
   }
+
+  
 @media not screen and (prefers-reduced-motion:reduce){
     .footer__top:hover svg{
         transform:translateY(-30%)
